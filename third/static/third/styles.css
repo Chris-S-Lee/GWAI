@@ -1,0 +1,149 @@
+@font-face {
+	font-family: "Pretendard-Regular";
+	src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+/* Body Page */
+body {
+	font-family: "Pretendard-Regular";
+}
+/* Menu Bar */
+.navbar navbar-expand-lg navbar-light bg-light {
+	box-shadow: 0 4px 8px #000;
+}
+/* List Page */
+.card.border-secondary {
+	border-style: none;
+	padding: 0px;
+}
+
+.card-body {
+	box-shadow: 0 4px 8px #000;
+	background-color: #ffffff;
+	padding: 10px;
+	transition: 0.5s;
+	border-radius: 10px;
+}
+.card-body:hover {
+	background-color: #e2e2e2;
+	cursor: hand;
+	opacity: 1;
+}
+
+.card-title {
+	font-family: "Impact";
+	font-size: x-large;
+}
+
+.card-subtitle {
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+	font-weight: 900;
+}
+
+.card-text {
+	margin-bottom: 10px;
+	font-family: "Pretendard-Regular";
+	font-weight: 400;
+}
+
+.card-link {
+	color: #000;
+	font-family: "Pretendard-Regular";
+	font-weight: 300;
+}
+
+.pagination .step-links a,
+.pagination .step-links .current {
+	display: inline-block;
+	padding: 8px 12px;
+	margin: 0 5px;
+	text-decoration: none;
+	color: #666666;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .step-links a:hover {
+	background-color: #aaaaaa;
+	color: #fff;
+}
+
+.pagination .step-links .current {
+	background-color: #666666;
+	color: #fff;
+	font-weight: bold;
+	cursor: default;
+}
+
+/* Registratoin Page */
+.container {
+	background-color: #fff;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px #000;
+	width: 300px;
+	margin: 5px auto;
+}
+
+table {
+	width: 100%;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+table th {
+	text-align: center;
+	font-size: x-large;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #666666;
+	color: #ffffff;
+	border: hidden;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #333333;
+}
+
+.equal-width-btn {
+	width: 150px;
+	margin: 5px;
+}
+
+label {
+	font-family: "Pretendard-Regular";
+	font-weight: 700;
+}
+
+/* Detail Page */
+h1 {
+	font-family: "Pretendard-Regular";
+	font-weight: 700;
+}
+.equal-width-btn {
+	margin-left: 0px;
+	background-color: #666666;
+	color: #666666;
+	border-color: #666666;
+	width: 150px;
+}
+
+.equal-width-btn:hover {
+	background-color: #333333;
+	border-color: #333333;
+}

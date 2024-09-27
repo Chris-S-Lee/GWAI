@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	margin: 40px auto; /* 화면 중앙 정렬을 위해 수정 */
+}
+
+table {
+	width: 100%;
+	margin-bottom: 15px;
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #118df0;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #118df0;
+}
+
+.equal-width-btn {
+	width: 150px; /* 원하는 너비로 설정 */
+	margin: 5px; /* 버튼 간격을 위해 여백 추가 */
+}
+
+.restaurant-item {
+	margin: 20px auto;
+	transition: transform 0.2s ease-in-out;
+}
+
+.restaurant-item:hover {
+	transform: scale(1.02);
+}
+
+.pagination {
+	display: inline-block;
+	padding: 10px 0;
+}
+
+.pagination .step-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.pagination .step-links a,
+.pagination .step-links .current {
+	display: inline-block;
+	padding: 8px 12px;
+	margin: 0 5px;
+	text-decoration: none;
+	color: #0e2f56;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .step-links a:hover {
+	background-color: #0e2f56;
+	color: #fff;
+}
+
+.pagination .step-links .current {
+	background-color: #0e2f56;
+	color: white;
+	font-weight: bold;
+	cursor: default;
+}
